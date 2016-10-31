@@ -1,0 +1,45 @@
+body {
+    background: rgba(98, 94, 94, 1); }
+
+.constrain {
+    max-width: 1060px;
+    min-height: 75px;
+    margin: 5px Auto;
+    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,"sans-serif";
+    border: 4px solid #A415C4;
+    border-radius: 30px;
+    padding: 1em;
+    background: lightgrey; }
+
+.highlight {
+    background: rgba(251, 243, 42, 0.5);
+    font-weight: 500; }
+
+#small {
+    font-size: 1em;
+    padding-right: .5em;
+    cursor: pointer; }
+
+#medium {
+    font-size: 1.3em;
+    padding-right: .5em;
+    cursor: pointer; }
+
+#large {
+    font-size: 1.6em;
+    cursor: pointer; }
+
+.control {
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    padding: 1em; }
+
+p, h2 {
+    cursor: pointer; }
+
+.printMe {
+    float: right;
+    text-align: center;
+    font-weight: 600;
+    padding: 1em; }
